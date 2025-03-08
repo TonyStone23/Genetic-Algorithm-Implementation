@@ -1,0 +1,18 @@
+Example Function: -(x-3)^2 + 9
+
+Example Output:
+
+Overall Highest Fitness Score: 9 
+Overall Fittest Individual: 3
+             Fittest  Fitness Score  Average
+Generations
+0                  2              8     -3.6
+1                  1              5    -13.1
+2                  1              5      1.5
+3                  3              9      7.0
+4                  3              9      4.7
+5                  2              8      5.8
+6                  2              8      6.2
+7                  3              9      5.6
+8                  1              5      5.7
+9                  3              9      2.7
