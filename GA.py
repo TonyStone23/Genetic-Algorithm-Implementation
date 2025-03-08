@@ -128,12 +128,8 @@ def geneticAlgorithm(numGenerations, mutationRate, generationSize, chartOutput =
         chart.index.name = "Generations"
 
     return fittestScore, fittestIndividual, chart
-
-
-# Run the Algorithm to maximize the function: -(x-3)^2 + 9
-# Expected fittest Individual: 3
-# Expected maximum Fitness: 9
-
+    
+# Run the Algorithm
 fittestScore, fittestIndividual, chart = geneticAlgorithm(numGenerations=10, mutationRate=50, generationSize=10)
 
 print(fittestScore, fittestIndividual)
